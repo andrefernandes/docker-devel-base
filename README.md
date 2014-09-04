@@ -4,7 +4,8 @@ docker-devel-base
 Base CentOS 7 + Development Tools
 
 This is just a plain CentOS 7 image that can be used for general
-development. It was constructed with 'yum groupinstall "Development tools"'.
+development. It was constructed with 'yum groupinstall "Development tools"',
+so it contains git, svn, gcc, make and all that stuff.
 
 This image is used as a base for other specific development
 focused images.
